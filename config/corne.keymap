@@ -34,8 +34,8 @@
                         bindings = <
    &kp TAB       &kp Q       &kp W          &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &lt LOWER ESC &lt RAISE A &lt COMMANDS S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT     &hm LCTRL Z &kp X          &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                  &kp LALT &kp LGUI(SPACE) &hm LGUI SPACE   &kp RET &mo 2 &kp RALT
+   &kp LSHFT     &mt LCTRL Z &kp X          &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+                  &kp LALT &kp LGUI(SPACE) &mt LGUI SPACE   &kp RET &mo 2 &kp RALT
                         >;
                 };
                 
