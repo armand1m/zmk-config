@@ -60,8 +60,8 @@
                 commands_layer {
                         bindings = <
    &trans  &none    &none   &kp LALT(LSFT(N0))  &none      &none              &none      &none                  &none           &none    &kp LGUI(LSFT(N4))   &none
-   &trans  &trans   &trans  &none               &trans     &kp C_BRI_UP       &none      &kp LGUI(MINUS)        &kp LGUI(PLUS)  &none    &none                &none
-   &trans  &none    &none   &none               &trans     &kp C_BRI_DN       &none      &kp K_MUTE             &none           &none    &none                &none
+   &trans  &trans   &trans  &none               &trans     &none              &none      &kp LGUI(MINUS)        &kp LGUI(PLUS)  &none    &none                &none
+   &trans  &none    &none   &none               &trans     &none              &none      &kp K_MUTE             &none           &none    &none                &none
                                    &kp K_PREV &kp K_VOL_DN &trans   &kp K_PP &kp K_VOL_UP &kp K_NEXT
                         >;
                 };
