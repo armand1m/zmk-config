@@ -16,7 +16,7 @@
 / {
 
         ext-power {
-                init-delay-ms = <50>;
+                init-delay-ms = <200>;
         };
    
         keymap {
