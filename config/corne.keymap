@@ -92,10 +92,10 @@
                 
                 commands_layer {
                         bindings = <
-   &trans  &none    &none   &none      &kp LA(LS(N0))      &none              &bt BT_CLR &bt BT_SEL 0           &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4
+   &trans  &none    &none   &none      &kp LA(LS(N0))      &none              &bt BT_CLR             &bt BT_SEL 0           &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4
    &trans  &trans   &trans  &none      &trans              &none              &ext_power EP_TOG      &kp LG(MINUS)          &kp LG(PLUS)    &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI
-   &trans  &none    &none   &none      &trans              &none              &none      &kp K_MUTE             &none           &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD
-                                   &kp K_PREV &kp K_VOL_DN &RGB_TOG   &kp RGB_EFF &kp K_VOL_UP &kp K_NEXT
+   &trans  &none    &none   &none      &trans              &none              &none                  &kp K_MUTE             &none           &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD
+                                   &kp K_PREV &kp K_VOL_DN &rgb_ug RGB_TOG    &rgb_ug RGB_EFF &kp K_VOL_UP &kp K_NEXT
                         >;
                 };
         };
