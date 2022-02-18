@@ -6,10 +6,7 @@ manifest:
       url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-    # uncomment when https://github.com/zmkfirmware/zmk/pull/547 is merged
-    # remote: zmkfirmware
-      remote: pete-fork
-      revision: core/peripheral-behavior-invocation
+      remote: zmkfirmware
       import: app/west.yml
   self:
     path: config
